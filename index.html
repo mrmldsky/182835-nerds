@@ -13,7 +13,7 @@
         <ul class="site-navigation">
           <li><a href="info.html">Студия</a></li>
           <li><a href="clients.html">Клиенты</a></li>
-          <li><a href="catalog,html">Магазин</a></li>
+          <li><a href="catalog.html">Магазин</a></li>
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
         <ul class="bucket-navigation">
@@ -112,6 +112,8 @@
           тел: +7 (812) 275-75-75
         </p>
         <a class="button"></a>
+        <p>
+          <img src="img/map.jpg" width="1440" height="416" alt="191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
       </section>
     </main>
     <footer class="main-footer">
@@ -123,5 +125,27 @@
       <b>Давайте дружить, это выгодно!</b>
       <p>Скидка 10% для друзей из социальных сетей</p>
     </footer>
+
+    <section class="modal modal-login">
+      <h2>Личный кабинет</h2>
+      <p>Введите свой логин и пароль</p>
+      <form class="user" method="post" action="https://echo.htmlacademy.ru">
+        <p>
+          <label for="user-login">Логин</label>
+          <input id="user-login" name="login" type="text" placeholder="Логин">
+        </p>
+        <p>
+          <label for="user-password">Пароль</label>
+          <input id="user-password" type="password" name="password" placeholder="Пароль">
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="remember">Запомните меня
+          </label>
+        </p>
+        <button type="submit" >Войти</button>
+      </form>
+      <span class="modal-close"></span>
+    </section>
   </body>
 </html>
