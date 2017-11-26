@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Nerds Design Studio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -54,32 +57,36 @@
           </li>
         </ul>
       </section>
-      <section class="features-1">
-        <h3>Мы - маленькая, но гордая дизайн-студия из Краснодара</h3>
-        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы</p>
-        <b>Выполняем заказы на разработку</b>
-        <ul class="features-1-list">
-          <li class="feature-1-item">Веб-сайтов любой сложности</li>
-          <li class="feature-1-item">Мобильных приложений для iOS и Android</li>
-          <li class="feature-1-item">Слайдшоу и видео для корпоративных презентаций</li>
-        </ul>
-      </section>
-      <section class="features-2">
-        <img src="img/nerds-illustration.svg" width="360" height="208" alt="Лого Нёрдс">
-        <b>С 2004 года любим точность во всем!</b>
-        <table>
-          <tr>
-            <th>146%</th>
-            <th>100%</th>
-            <th>50%</th>
-          </tr>
-          <tr>
-            <td>Уровень самоотдачи</td>
-            <td>Соблюдение сроков</td>
-            <td>Минимальная предоплата</td>
-          </tr>
-        </table>
-      </section>
+
+      <div class="index-column">
+        <section class="features-1">
+          <h3>Мы - маленькая, но гордая дизайн-студия из Краснодара</h3>
+          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы</p>
+          <b>Выполняем заказы на разработку</b>
+          <ul class="features-1-list">
+            <li class="feature-1-item">Веб-сайтов любой сложности</li>
+            <li class="feature-1-item">Мобильных приложений для iOS и Android</li>
+            <li class="feature-1-item">Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </section>
+        <section class="features-2">
+          <img src="img/nerds-illustration.svg" width="360" height="208" alt="Лого Нёрдс">
+          <b>С 2004 года любим точность во всем!</b>
+          <table>
+            <tr>
+              <th>146%</th>
+              <th>100%</th>
+              <th>50%</th>
+            </tr>
+            <tr>
+              <td>Уровень самоотдачи</td>
+              <td>Соблюдение сроков</td>
+              <td>Минимальная предоплата</td>
+            </tr>
+          </table>
+        </section>
+      </div>
+
       <section class="our-clients">
         <ul class="our-clients-list">
           <li class="our-client-item">
@@ -111,9 +118,9 @@
           ул. Б. Конюшенная, д. 19/8<br><br>
           тел: +7 (812) 275-75-75
         </p>
-        <a class="button"></a>
+        <button class="button">Напишите нам</a>
         <p>
-          <img src="img/map.jpg" width="1440" height="416" alt="191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+          <img src="img/map-marker.svg" width="231" height="190" alt="191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
       </section>
     </main>
     <footer class="main-footer">
@@ -126,26 +133,25 @@
       <p>Скидка 10% для друзей из социальных сетей</p>
     </footer>
 
-    <section class="modal modal-login">
-      <h2>Личный кабинет</h2>
-      <p>Введите свой логин и пароль</p>
-      <form class="user" method="post" action="https://echo.htmlacademy.ru">
+    <section class="modal modal-write-us">
+      <h2>Напишите нам</h2>
+      <form class="write-us-form" method="post" action="https://echo.htmlacademy.ru">
         <p>
-          <label for="user-login">Логин</label>
-          <input id="user-login" name="login" type="text" placeholder="Логин">
+          <label for="name">Ваше имя</label>
+          <input type="text" id="name" name="name" placeholder=""="Представьтесь, пожалуйста">
         </p>
         <p>
-          <label for="user-password">Пароль</label>
-          <input id="user-password" type="password" name="password" placeholder="Пароль">
+          <label for="email">Ваш e-mail</label>
+          <input type="email" id="email" name="email" placeholder=""="Для отправки ответа">
         </p>
         <p>
-          <label>
-            <input type="checkbox" name="remember">Запомните меня
-          </label>
+          <label for="email-text">Текст письма</label>
+          <textarea name="email-text" id="email-text">В свободной форме</textarea>
         </p>
-        <button type="submit" >Войти</button>
+          <button type="submit">Отправить</button>
       </form>
-      <span class="modal-close"></span>
+      <span class="modal close"></span>
     </section>
+
   </body>
 </html>
