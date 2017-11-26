@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgb(40, 49, 54);
+
+  background-color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  line-height: 30px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(238, 238, 238);
+}
+
+.site-navigation,
+.bucket-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.bucket-navigation a {
+  color: rgb(40, 49, 54);
+  text-transform: uppercase;
+}
+
+.site-navigation a:hover,
+.bucket-navigation a:hover {
+  color: rgb(166, 166, 166);
+}
+
+.site-navigation a:focus,
+.bucket-navigation a:focus {
+  color: rgb(245, 83, 94);
+}
+
+.site-navigation a:active,
+.bucket-navigation a:active {
+  color: rgb(238, 238, 238);
+}
+
+.catalog-list ul {
+  list-style: none;
+}
+
+.catalog-item {
+  text-align: right;
+}
+
+.catalog-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.index-column {
+}
+
+.index-column b {
+  text-transform: uppercase;
+}
+
+.index-column th {
+  font-size: 45px;
+}
+
+.index-column td {
+  line-height: 18px;
+}
+
+.index-column h3 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.features-1 ul {
+  list-style: none;
+}
+
+.button {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.button:hover {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button:focus {}
+
+.button:active {}
+
+.our-clients ul {
+  list-style: none;
+}
+
+.navigation {
+  background-image: url("img/map.jpg");
+
+}
+
+.main-footer b {
+  font-size: 36px;
+}
+
+.main-footer ul {
+  list-style: none;
+}
+
+.modal h2 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.write-us-form input[type="text"],
+.write-us-form input[type="email"]
+.write-us-form textarea {
+  font: inherit;
+  color: rgb(68, 68, 68, 0.5);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(215, 220,222);
+}
+
+.write-us-form input:focus,
+.write-us-form textarea:focus {
+  border: 2px solid rgb(0, 0, 0);
+  color:
+}
+
+.write-us-form input:hover,
+.write-us-form textarea:hover {
+  border: 2px solid rgb(180, 185,187);
+}
+
+.catalog ul {
+  list-style: none;
+}
+
+.inner-page {
+  background-color: rgb(238, 238, 238);
+}
+
+.catalog-item-title {
+  text-transform: uppercase;
+}
+
+.sort a {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.sort a:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sort a:hover,
+.sort a:active {
+  color: rgb(0, 0, 0);
+}
