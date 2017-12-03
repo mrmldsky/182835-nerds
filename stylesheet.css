@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 
-.main-navigation {
+/*.main-navigation {
   line-height: 30px;
   color: rgb(0, 0, 0);
   background-color: rgb(238, 238, 238);
@@ -164,3 +164,191 @@ a {
 .sort a:active {
   color: rgb(0, 0, 0);
 }
+
+*/
+
+/* Сеточные стили */
+
+hmtl,
+body {
+  min-width: 1440px;
+  min-height: 1750px;
+}
+
+body {
+  background-image: url(nerds-index.jpg);
+  background-size: 1440 auto;
+  background-repeat: no-repeat;
+}
+
+.main-header {
+  margin: 0;
+  padding: 0;
+  min-height: 132px;
+}
+
+.main-navigation {
+  min-height: 128px;
+  background-color: transparent;
+  display: flex;
+  border: 2px solid green;
+  justify-content: space-between;
+}
+
+
+.main-header-logo {
+  width: 160px;
+  height: 65px;
+  outline: 2px solid green;
+  /*display: block;*/
+  margin-top: 49px;
+  margin-left: 16px;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  min-height: 70px;
+  width: 560px;
+  outline: 2px solid green;
+}
+
+.bucket-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  min-height: 70px;
+  width: 160px;
+  outline: 2px solid green;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.catalog {
+  margin-bottom: 85px;
+  width: 1100px;
+
+}
+
+.catalog .container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+
+.catalog-list {
+  min-height: 350px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  outline: 2px solid green;
+  margin-left: 20px
+}
+
+.catalog-item {
+  min-height: 350px;
+  width: 296px;
+  outline: 2px solid green;
+  margin-top: 80px;
+}
+
+.index-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-1 {
+  margin: 85px 20px 85px 0px;
+  width: 660px;
+  min-height: 375px;
+  outline: 2px solid green;
+}
+
+.features-2 {
+  margin: 42px 20px 42px 0px;
+  width: 360px;
+  outline: 2px solid green;
+  min-height: 410px;
+}
+
+.main-footer .container {
+  display: flex;
+}
+
+.social {
+  width: 300px;
+  margin-right: 100px;
+}
+
+.action {
+  width: 600px;
+}
+
+.promo {
+  min-height: 413px;
+  width: 1200px;
+  outline: 2px solid green;
+  margin: 0;
+  padding: 0;
+}
+
+.our-clients {
+  min-height: 263px;
+  width: 1160px;
+  outline: 2px solid green;
+  margin: 0;
+  padding: 0;
+}
+
+ul.our-clients-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-clients-list li {
+  min-width: 200px;
+  min-height: 85px;
+  outline: 2px solid green;
+}
+
+.navigation {
+  min-height: 420px;
+  width: 1440px;
+  outline: 2px solid green;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer {
+  min-height: 220px;
+  width: 1200px;
+  outline: 2px solid green;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+ ul.social {
+   list-style: none;
+   outline: 2px solid green;
+   width: 300px;
+   min-height: 120px;
+ }
+
+ .action {
+   width: 800px;
+   border: 2px solid green;
+   min-height: 120px;
+ }
